@@ -41,7 +41,7 @@ class GbsuFtbLaiService {
             value = containsNumber(stringNumbur, value)
             isMatch = true;
         }
-        
+
         if (isMatch) {
             return value.toString();
         } else {
